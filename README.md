@@ -1,82 +1,62 @@
-#  MySpending
+#  MySpending — mobile
 
-A modern and elegant personal finance web application that helps you track income, expenses, savings and investments — all in one beautiful interface.
+A clean and modern Flutter app for tracking personal finances on iOS.  
+Manage your income, expenses, savings and investments with beautiful charts and an intuitive interface.
 
 ---
 
 ##  About
 
-**MySpending** is a clean and intuitive web app for managing your personal finances.  
-Create an account, add transactions with categories and payment methods, and get real-time insights into your financial health.
+**MySpending** is a mobile personal finance tracker that helps you stay in control of your money.  
+Add transactions, organize them by categories, view detailed history and get visual insights through statistics and charts.
 
-All data is stored locally in the browser using `localStorage` (per user).
+All data is stored locally on the device.
 
 ---
 
-##  Features
+## Features
 
 ### Authentication
-- Login / Sign Up system
-- User data isolated by email
-- Persistent sessions via `localStorage`
+- Login screen
+- Create account
+- User profile management
 
-### Dashboard
-- Overview cards: **Income**, **Spending**, **Saving**, **Investments**
-- Monthly spending bar chart (Jan–Dec)
-- Transaction history with delete functionality
-- Quick “Add Transaction” form with:
-  - Amount & Note
-  - Category selector (with icons)
-  - Payment method (Check / Card / Cash)
-  - Date picker
+### Home Screen
+- Overview of your finances
+- Quick access to recent activity
+- Navigation between main sections
 
-### Analytics
-- Weekly spending line chart
-- “My Pocket” donut chart (Income / Spent / Investments / Saving)
-- Key stats:
-  - Most expensive day
-  - Favorite category
-  - Total spending
-  - Most profitable month
-  - Most spending month
-- Average Income (per year) & Average Outcome (per month)
-- Smart financial tips
-- Financial Health indicator
+### Transactions
+- Add new transactions
+- Choose category, amount, note and date
+- View full transaction history
+- Delete transactions
 
-### Categories
-- Beautiful grid of 19+ categories
-- Click any category to see detailed transaction list and total
+### Statistics
+- Visual analytics with pie chart
+- Spending insights
+- Category breakdown
 
 ### Profile
-- Upload / delete profile avatar
-- Edit name, email, password and bio
-- Changes are saved instantly
+- Edit name, email and avatar
+- View personal information
+- Gallery support for profile photos
+
+### Additional
+- Splash screen
+- Custom bottom navigation bar
+- Category selector widget
 
 ---
 
-##  Design
+## Tech Stack
 
-Soft pastel color palette with modern UI:
-
-| Card            | Color     |
-|-----------------|-----------|
-| Income          | `#B5C9D5` |
-| Spending        | `#E3E1C5` |
-| Saving          | `#D6BDD9` |
-| Investments     | `#B5DBC5` |
-
-Font: **Poppins**
+- **Flutter** (Dart)
+- Local storage (SQLite / SharedPreferences)
+- Custom widgets & charts
+- Image picker for profile photos
 
 ---
 
-## 🛠 Tech Stack
-
-- **HTML5**
-- **CSS3** (custom styling)
-- **Vanilla JavaScript**
-- **localStorage** for data persistence
-- **Canvas API** for donut chart
-- **SVG** for weekly analytics chart
-
----
-
+## Mock up
+https://www.figma.com/design/GK5otxGNsjPKBkvzT9zkiH/projetk-z-PI?node-id=0-1&t=cwNWxhbPJmAJsQU8-1
