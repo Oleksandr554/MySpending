@@ -79,5 +79,6 @@ Font: **Poppins**
 - **SVG** for weekly analytics chart
 
 ---
+## Mock up
 
-<img width="1920" height="1080" alt="Slide 16_9 - 3" src="https://github.com/user-attachments/assets/c2313938-d284-4709-80de-826ced95f1e2" />
+https://www.figma.com/design/jtvCmyZROOeYQb3YIfyd3p/Untitled?node-id=0-1&t=RZ7O85DJ65MMkX20-1
